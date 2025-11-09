@@ -1,0 +1,5 @@
+service_name,cpu_usage,memory_mb
+productpage,0.2,150
+reviews,0.3,200
+ratings,0.15,120
+details,0.1,100
