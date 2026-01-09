@@ -1,0 +1,3 @@
+approach,cpu_usage_millicores,memory_usage_gb,p95_latency_ms
+MCG,202.7,176.8,160
+K8s Autoscaler,275.9,247.1,180

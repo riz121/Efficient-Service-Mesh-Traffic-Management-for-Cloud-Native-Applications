@@ -1,4 +1,5 @@
 src,dst,lambda,response_time_ms
-productpage,reviews,850,180
-reviews,ratings,600,220
-productpage,details,700,150
+productpage,reviews,354.95,89.01
+reviews,ratings,312.62,89.09
+productpage,details,239.28,126.3
+reviews,details,132.57,279.75

@@ -1,0 +1,8 @@
+paper_figure,file_name,description
+Figure 6,bookinfo_response_time.csv,Average response times for Bookinfo services under latency 1/5/10ms (Istio vs MCG).
+Figure 6 (runs),bookinfo_latency_variation.csv,Per-run response time samples used for variability/error bars.
+Figure 7,ubbench_fault_injection.csv,No-traffic-management behavior under injected faults (E2E latency + RPS).
+Figure 8,circuit_breaker_results.csv,MCG-enabled with circuit breaker (p95 latency + RPS).
+Figure 9,traffic_load_results.csv,Successful/blocked request rates for 80/100/120% load.
+Figure 10,workload_spike_results.csv,Workload spike experiment with retries/blocked requests.
+Figure 11,resource_efficiency_scalability.csv,CPU/memory and p95 latency comparison vs autoscaler.

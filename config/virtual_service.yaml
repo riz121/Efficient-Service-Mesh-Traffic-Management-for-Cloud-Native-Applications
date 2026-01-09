@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: example-virtual-service
+spec:
+  hosts:
+  - reviews.default.svc.cluster.local
+  http:
+  - retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx,gateway-error,connect-failure
+    timeout: 5s
+    route:
+    - destination:
+        host: reviews.default.svc.cluster.local
+        subset: v1
+      weight: 70
+    - destination:
+        host: reviews.default.svc.cluster.local
+        subset: v2
+      weight: 30

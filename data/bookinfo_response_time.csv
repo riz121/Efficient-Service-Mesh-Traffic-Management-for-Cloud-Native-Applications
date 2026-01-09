@@ -1,0 +1,13 @@
+service_name,network_latency_ms,istio_avg_response_ms,mcg_avg_response_ms,std_dev_ms
+Product,1,238.01,217.02,9.18
+Product,5,299.31,258.61,7.03
+Product,10,400.72,362.93,8.52
+Ratings,1,170.55,147.4,11.07
+Ratings,5,251.26,220.01,9.91
+Ratings,10,348.34,320.35,8.63
+Details,1,235.19,216.16,4.47
+Details,5,327.18,290.86,10.81
+Details,10,421.88,371.76,2.45
+Reviews,1,181.54,161.63,10.34
+Reviews,5,241.64,207.76,10.44
+Reviews,10,338.26,302.86,13.18
